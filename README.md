@@ -27,8 +27,8 @@ El informe tiene el siguiente aspecto:
 ### Ruta del fichero generado:
 C:/Informes de clientes/
 
-### Dependencias
+### Dependencias:
 Spring Data JPA  
 MySQL Driver
 
-Poyecto generado con Spring Boot v3.0.4
+Poyecto realizado con Spring Boot v3.0.4
