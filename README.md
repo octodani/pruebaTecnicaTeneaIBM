@@ -4,7 +4,7 @@ Prueba técnica para la vacante de Tenea/IBM
 
 ### Ejecución del programa:
 
-En la cosola se debe ejecutar al siguiente comando: java -jar consultarProveedores.jar + el ID del cliente que se quiera consultar
+En la cosola se debe ejecutar el siguiente comando: java -jar consultarProveedores.jar + el ID del cliente que se quiera consultar
 
 ![ejecucion](https://github.com/octodani/pruebaTecnicaTeneaIBM/blob/master/assets/ejecucion.png)
 
