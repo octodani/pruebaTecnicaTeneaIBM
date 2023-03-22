@@ -31,9 +31,9 @@ AUTO_INCREMENT = 4
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
 
-INSERT INTO `` (`id_proveedor`,`nombre`,`fecha_de_alta`,`id_cliente`) VALUES (1,'Coca-cola','2020-01-01',5);
-INSERT INTO `` (`id_proveedor`,`nombre`,`fecha_de_alta`,`id_cliente`) VALUES (2,'Pepsi','2020-02-01',5);
-INSERT INTO `` (`id_proveedor`,`nombre`,`fecha_de_alta`,`id_cliente`) VALUES (3,'Redbull','2020-03-01',6);
+INSERT INTO `pruebatecnica`.`proveedores` (`nombre`,`fecha_de_alta`,`id_cliente`) VALUES ('Coca-cola','2020-01-01',5);
+INSERT INTO `pruebatecnica`.`proveedores` (`nombre`,`fecha_de_alta`,`id_cliente`) VALUES ('Pepsi','2020-02-01',5);
+INSERT INTO `pruebatecnica`.`proveedores` (`nombre`,`fecha_de_alta`,`id_cliente`) VALUES ('Redbull','2020-03-01',6);
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
