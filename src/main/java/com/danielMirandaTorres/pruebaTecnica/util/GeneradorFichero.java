@@ -15,19 +15,20 @@ import java.util.List;
 @Component
 public class GeneradorFichero {
 
-    private String fileName = "src/main/output/Informe de proveedores del cliente ";
+    private String fileDirectory = "C:/Informes de clientes/";
+    private String fileName = "Informe de proveedores del cliente ";
 
     public String getFileName() {
-        return fileName;
+        return fileDirectory + fileName;
     }
 
     public void generarFichero(List<Proveedor> proveedores, Long idCliente) throws IOException {
 
         this.fileName += idCliente + ".txt";
 
-        Files.createDirectories(Paths.get("src/main/output"));
+        Files.createDirectories(Paths.get(fileDirectory));
 
-        FileWriter fileWriter = new FileWriter(fileName);
+        FileWriter fileWriter = new FileWriter(fileDirectory + fileName);
         PrintWriter printWriter = new PrintWriter(fileWriter);
 
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
