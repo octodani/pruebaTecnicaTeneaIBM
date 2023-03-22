@@ -28,7 +28,7 @@ El informe tiene el siguiente aspecto:
 C:/Informes de clientes/
 
 ### Dependencias
-Spring Data JPA\n
+Spring Data JPA  
 MySQL Driver
 
 Poyecto generado con Spring Boot v3.0.4
