@@ -2,7 +2,7 @@
 Prueba técnica para la vacante de Tenea/IBM
 
 
-· Ejecución del programa:
+###· Ejecución del programa:
 
 En la cosola se debe ejecutar al siguiente comando: java -jar consultarProveedores.jar + el ID del cliente que se quiera consultar
 
@@ -24,9 +24,9 @@ El informe tiene el siguiente aspecto:
 
 https://github.com/octodani/pruebaTecnicaTeneaIBM/blob/master/assets/informe.png
 
-· Ruta del fichero generado: C:/Informes de clientes/
+###· Ruta del fichero generado: C:/Informes de clientes/
 
-· Dependencias
+###· Dependencias
 Spring Data JPA
 MySQL Driver
 
